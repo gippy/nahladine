@@ -1,0 +1,11 @@
+#bottom img.background.hover{
+	cursor: pointer;
+}
+
+img.logo{
+	cursor: pointer;
+	@include transition(opacity, 0.5s);
+	&:hover, &.hover{
+		@include opacity(0.8);
+	}
+}

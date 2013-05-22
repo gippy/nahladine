@@ -1,0 +1,489 @@
+/*!
+Theme Name: Famufest 2013 - Na Hladine
+Theme URI: http://gipsweb.cz/projects/famufest
+Author: Jaroslav Hejlek
+Author URI: http://gipsweb.cz/
+Description: Theme for Famufest Film Festival for year 2013 with visual style "Na Hladine"
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwelve
+*/
+@import url("https://fnt.webink.com/wfs/webink.css/?project=CF067CE0-85AC-467D-9FE0-0EB3DFDBB210&fonts=CAC4D133-08E9-2123-5FFE-D354F1BB6F08:f=Executive-MediumIta,CFA46947-638C-0F15-A271-A897771BB7AA:f=Executive-Bold,06DF7380-FF3E-3BE8-59D0-E24986CA63CD:f=Executive-Medium,BF6E34AD-813B-1B6B-449A-38F4A417DE49:f=Executive-Regular,AFACCE17-5C0F-7C3C-CF59-DFC1523A0631:f=Executive-RegularIta,61C315B0-9382-DB96-AC5F-7057ACCFA58F:f=Executive-BoldIta");
+@import 'bootstrap';
+@import 'bootstrap-responsive';
+
+@mixin transition($type, $time) {
+	-webkit-transition:$type $time;
+	-moz-transition:$type $time;
+	-o-transition:$type $time;
+	transition:$type $time;
+}
+
+$pageGutter: 18px;
+
+$mainColor: #020202;
+
+html{
+	height: 100%;
+}
+
+body{
+	background-color: white;
+	height: 100%;
+	color: white;
+}
+
+img {
+	max-width: 100%
+}
+
+#facebook{
+	position:absolute;
+	top: 0;
+	left: 0;
+
+	html .pam {
+		display: none!important;
+	}
+}
+
+#page{
+	width: 100%;
+	height: 100%;
+	overflow:hidden;
+
+	img.background {
+		width: 100%;
+		position:absolute;
+		left:0px;
+		top:0px;
+	}
+}
+
+#top,#bottom{
+	width: 100%;
+	height: 0;
+	position:relative;
+}
+
+#top{
+	padding-bottom: 29.62962962962962962962962962963%;
+	padding-top: 1px;
+	margin-top: -1px;
+	overflow: hidden;
+
+	.top-bg {
+		position:absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+
+		img.background{
+			position: relative;
+			width: 100%;
+			padding-bottom:2px;
+		}
+
+		img.logo{
+			position:absolute;
+			top: 68.8%;
+			left: 48.12962962962962962962962962963%;
+			width: 3.962962962962962962962962962963%;
+
+			&.clickable {
+				cursor: pointer;
+
+				@include transition(opacity, 0.5s);
+
+				&:hover{
+					opacity:0.8;
+					filter:alpha(opacity=80); /* For IE8 and earlier */
+				}
+			}
+		}
+	}
+
+	header{
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		h1{
+			margin-top: 0px;
+			height: 40px;
+			line-height: 48px;
+		}
+		hgroup {
+			position: absolute;
+			left: $pageGutter;
+			top: $pageGutter;
+			font-family: "Executive-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+		a {
+			color: white;
+			text-decoration: none;
+		}
+
+		.languages a{
+			opacity:0.5;
+			filter:alpha(opacity=50); /* For IE8 and earlier */
+			&.active{
+				opacity:1;
+				filter:alpha(opacity=100); /* For IE8 and earlier */
+			}
+			&:hover{
+				opacity:0.8;
+				filter:alpha(opacity=80); /* For IE8 and earlier */
+			}
+		}
+	}
+}
+
+#bottom{
+	padding-bottom: 44.259259259259259259%;
+	margin-top: -11.25%;
+
+	footer{
+		top: 2px;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		display: none;
+
+		&.visible{
+			display:block;
+		}
+
+		.bottom-bg {
+			position:absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+
+			img.background{
+				position: relative;
+				width: 100%;
+			}
+			img.logo{
+				position:absolute;
+				top: 2.74375%;
+				left: 48.12962962962962962962962962963%;
+				width: 5.314814814814814814814814814815%;
+
+				&.clickable {
+					cursor: pointer;
+
+					@include transition(opacity, 0.5s);
+
+					&:hover{
+						opacity:0.8;
+						filter:alpha(opacity=80); /* For IE8 and earlier */
+					}
+				}
+			}
+		}
+
+		.partners{
+			position: absolute;
+			bottom: 3.5*$pageGutter;
+			left:10%;
+			width: 80%;
+			text-align:center;
+			opacity: 30%;
+			img{
+				margin-right: 5px;
+				opacity:0.3;
+				filter:alpha(opacity=30); /* For IE8 and earlier */
+			}
+		}
+
+		.copyright{
+			position: absolute;
+			bottom: 1.5*$pageGutter;
+			left:10%;
+			width: 80%;
+			text-align:center;
+			opacity:0.3;
+			filter:alpha(opacity=30); /* For IE8 and earlier */
+		}
+	}
+}
+
+#main {
+	color: $mainColor;
+	&.hidden-content{
+		visibility: hidden;
+	}
+	img.background{
+		top: 2px;
+	}
+}
+
+i.main-icon{
+	position: absolute;
+	display: block;
+	width: 45px;
+	height: 45px;
+	cursor: pointer;
+	background: transparent url('./img/icon-sprites.png') 0px 0px no-repeat;
+
+	&.menu-icon{
+		display: none;
+		bottom: $pageGutter;
+		left: $pageGutter;
+		width: auto;
+		font-size: 17px;
+		padding: 11px 55px 9px 0px;
+		height: 17px;
+		height: 15px;
+		font-style: normal;
+		background-position: 100% -110px;
+		@include transition(color, 0.5s);
+		&:hover{
+			font-weight:bold;
+		}
+		&.black{
+			background-position: 100% -165px;
+			color: black;
+		}
+	}
+
+	&.home-icon{
+		bottom: $pageGutter;
+		right: $pageGutter;
+		background-position: 0px 0px;
+		&:hover{
+			bottom: $pageGutter - 1px;
+			right: $pageGutter - 1px;
+		}
+		&.black{
+			background-position: 0px -55px;
+		}
+	}
+
+	&.news-icon{
+		display: none;
+		top: $pageGutter;
+		right: $pageGutter;
+		font-size: 17px;
+		padding: 11px 0px 9px 55px;
+		height: 17px;
+		font-style: normal;
+		background-position: 0% -220px;
+		&:hover{
+			font-weight:bold;
+		}
+		&.black{
+			background-position: 0% -278px;
+			color: black;
+		}
+	}
+}
+
+.main-navigation {
+	position: relative;
+	top: 2*$pageGutter;
+
+	a{
+		text-decoration:none;
+		color: lighten($mainColor,80%);
+		@include transition(color, 0.5s);
+
+		&:hover {
+			color: $mainColor;
+		}
+	}
+
+	.menu-toggle, .assistive-text{
+		display:none;
+	}
+
+	ul{
+		list-style-type: none;
+		position: relative;
+		top: $pageGutter;
+		padding-left: $pageGutter;
+		padding-right: $pageGutter;
+		border-right: 2px solid black;
+		float:left;
+		background: transparent;
+		margin-left: 0;
+
+		li {
+			font-size: 1.4285714285714285714285714285714em;
+			line-height: 1.2em;
+			padding-bottom: 0.6em;
+			font-family: "Executive-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+			&.current-menu-item, &.current-menu-ancestor, &.active {
+				& > ul {
+					display: block;
+				}
+				& > a {
+					color: $mainColor;
+				}
+			}
+			li {
+				font-size:0.95em;
+			}
+		}
+
+		ul{
+			left: 105%;
+			margin-left: 2px;
+			position: absolute;
+			float: none;
+			display: none;
+			top: 1.5 * $pageGutter;
+			border-right: 2px solid lighten(#000000, 40%);
+			ul{
+				border-right: 2px solid lighten(#000000, 60%);
+			}
+		}
+	}
+}
+
+#news{
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+	.slides{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
+	.icon{
+		position: absolute;
+		display: block;
+		width: 27px;
+		height: 27px;
+		top: $pageGutter;
+		cursor: pointer;
+
+		&.prev-icon{
+			background: transparent url('./img/prev-icon.png') 0 0 no-repeat;
+			right:60%;
+		}
+		&.next-icon{
+			background: transparent url('./img/next-icon.png') 0 0 no-repeat;
+			right: 50%;
+		}
+	}
+
+	article {
+		height: 100%;
+		overflow: hidden;
+
+		img {
+			position: absolute;
+			width: 65%;
+			left: 0;
+			bottom: 0;
+		}
+
+		.overlay {
+			width: 35%;
+			float: right;
+			background-color: rgb(0,0,0);
+			padding: $pageGutter;
+			height: 100%;
+		}
+	}
+}
+
+
+#content{
+	position: relative;
+	font-size: 1em;
+	padding: $pageGutter;
+	padding-top: 0px;
+	top: 150px;
+	overflow: auto;
+
+	@include transition(padding-left, 0.4s);
+
+	article {
+		max-width: 55em;
+	}
+}
+
+.famufest_movie {
+	.clear{
+		clear: both;
+	}
+	img{
+		float: left;
+	}
+	.wp-post-image {
+		width: 70%;
+	}
+	.other-movies {
+		padding-top: $pageGutter;
+		div{
+			float: left;
+			margin-right: $pageGutter;
+		}
+	}
+}
+
+.archive-filters ul{
+	list-style-type: none;
+	li {
+		font-size: 1.2em;
+		display: inline-block;
+		padding: 0.5em 0em 0.5em 1em;
+	}
+}
+
+.facebook{
+	display: none;
+	position: absolute;
+	padding: $pageGutter;
+	background-color: rgba(25,25,25,0.8);
+	overflow: auto;
+	width: 292px;
+
+	article {
+		margin-bottom: $pageGutter;
+		clear: both;
+		max-width: 100%;
+		overflow: hidden;
+		a {
+			color: white;
+			text-decoration: none;
+			font-family: "Executive-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+		.date{
+			margin-left: $pageGutter;
+			font-family: "Executive-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-weight: bold;
+		}
+	}
+}
+
+.fb-data{
+	display:none;
+}
+
+.icon {
+	&.fb-icon{
+		position:absolute;
+		display:block;
+		width: 25px;
+		height: 24px;
+		text-align: center;
+		background-color: red;
+		color: white;
+		cursor: pointer;
+		background: red url('./img/fb.png') 0 0 no-repeat;
+		&.fb-close {
+			background: rgba(255,0,0,0.8) url('./img/fb-close.png') 0 0 no-repeat;
+		}
+	}
+}
+
+@import 'z-index';

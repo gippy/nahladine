@@ -1,0 +1,16 @@
+h1,h2,h3,h4,h5,h6,p,li{
+	margin-top: 0px;
+}
+h1,h2,h3,h4,h5,h6,p {
+	margin-bottom: 1em;
+}
+
+nav li {
+	font-size: 1.4285714285714285714285714285714em;
+	line-height: 1.2em;
+	padding-bottom: 0.6em;
+	font-family: "Executive-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	li {
+		font-size: 1em;
+	}
+}

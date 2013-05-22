@@ -1,0 +1,95 @@
+#top {
+	z-index: 0;
+
+	.top-bg {
+		z-index: 1;
+		img.background{
+		}
+		img.logo{
+			z-index: 2;
+		}
+	}
+	header hgroup {
+		z-index: 2;
+	}
+
+	#news {
+		z-index: 0;
+
+		.slides {
+			z-index: 1;
+		}
+		.icon {
+			z-index: 2;
+		}
+		article {
+			img {
+				z-index: -1;
+			}
+		}
+	}
+}
+
+#bottom {
+	z-index: 1;
+	pointer-events:none;
+	footer {
+		z-index: 1;
+		background-color: #1a1126;
+		.bottom-bg {
+			pointer-events: none;
+			img.logo {
+				pointer-events:auto;
+			}
+		}
+		.partners {
+			z-index: 1;
+			pointer-events:auto;
+		}
+		.copyright {
+			pointer-events:auto;
+			z-index: 1;
+		}
+	}
+	#main {
+		img.background{
+			pointer-events:none;
+		}
+		z-index: 0;
+		.main-navigation, #content {
+			pointer-events:auto;
+		}
+	}
+}
+
+.main-navigation {
+	ul {
+		z-index: 1;
+	}
+}
+
+#content {
+	z-index: 1;
+}
+
+
+#facebook{
+	z-index: 10;
+}
+
+.facebook {
+	z-index: 50;
+}
+
+.icon {
+	&.fb-icon {
+		z-index: 50;
+	}
+}
+
+i.main-icon {
+	z-index: 10;
+	&.home-icon{
+		z-index: 50;
+	}
+}

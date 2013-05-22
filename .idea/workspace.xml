@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5f055a17-a366-4945-99a8-e45fcf0ff7f6" name="Default" comment="" />
+    <ignored path="famufest.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/famufestmovie.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1365331265701" ignored="false" />
+    <file path="/famufest_movie.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1366573531024" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Expert4me/odr/ODRExchange/xml/en/page/layout.layout.xml" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1366110626486" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Expert4me/odr/ODRExchange/web/_inc/en/css/form/register_second.css" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1366110626486" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Expert4me/odr/ODRExchange/lib/Controller/IndexController.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1366110626486" ignored="false" />
+    <file path="/famufest_event.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1366234772186" ignored="false" />
+    <file path="/a.dummy" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1367160000854" ignored="false" />
+    <file path="/the-events-calendar.class.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1366293381780" ignored="false" />
+    <file path="/style.css" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1368815655265" ignored="false" />
+    <file path="/front-page.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1368903827690" ignored="false" />
+    <file path="/archive-famufest_movie.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1368966103327" ignored="false" />
+    <file path="/loop-no-posts-archive.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1366553733225" ignored="false" />
+    <file path="/archive-famufest_movie-header.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1366554868234" ignored="false" />
+    <file path="/famufest_movie-meta.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1368965086316" ignored="false" />
+    <file path="/single-famufest_movie.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1368965664861" ignored="false" />
+    <file path="/archive-famufest_movie-authors.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1368966097998" ignored="false" />
+    <file path="/archive-famufest_movie-authors-header.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1366567486410" ignored="false" />
+    <file path="/single.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1366576745495" ignored="false" />
+    <file path="/functions.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1369037262155" ignored="false" />
+    <file path="/slideshow.js" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1368915446986" ignored="false" />
+    <file path="/wp-config.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1366706036486" ignored="false" />
+    <file path="/style.scss" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1369210535498" ignored="false" />
+    <file path="/news.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1367172129804" ignored="false" />
+    <file path="/a.scss" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1367172792678" ignored="false" />
+    <file path="/a.twig" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1367172687828" ignored="false" />
+    <file path="/a.xml" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1367172695582" ignored="false" />
+    <file path="/a.feature" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1367172771909" ignored="false" />
+    <file path="/a.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1367173283767" ignored="false" />
+    <file path="/a.coffee" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1367172729266" ignored="false" />
+    <file path="/a.css" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1367172746258" ignored="false" />
+    <file path="/a.html" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1367172777194" ignored="false" />
+    <file path="/a.js" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1367172787455" ignored="false" />
+    <file path="/a.less" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1367172791531" ignored="false" />
+    <file path="/wp_resolutions.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1367395656013" ignored="false" />
+    <file path="/.htaccess" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1368958439184" ignored="false" />
+    <file path="/adaptive-images.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1367396633282" ignored="false" />
+    <file path="/header.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1369086507445" ignored="false" />
+    <file path="/footer.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1369212102485" ignored="false" />
+    <file path="/content-page.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1368819256984" ignored="false" />
+    <file path="/behavior.js" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1369212506608" ignored="false" />
+    <file path="/bootstrap.scss" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1369212922153" ignored="false" />
+    <file path="/ajax-news.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1368998963038" ignored="false" />
+    <file path="/loop-no-posts.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1368921236469" ignored="false" />
+    <file path="/list.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1368922091317" ignored="false" />
+    <file path="/ecp-page-template.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1368922221971" ignored="false" />
+    <file path="/facebook.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1368977843023" ignored="false" />
+    <file path="/index.php" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1369005406788" ignored="false" />
+    <file path="/z-index.scss" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1369210655691" ignored="false" />
+    <file path="/layout.scss" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1369213330363" ignored="false" />
+    <file path="/icons.scss" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1369207648400" ignored="false" />
+    <file path="/content.scss" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1369211568746" ignored="false" />
+    <file path="/colors.scss" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1369212656755" ignored="false" />
+    <file path="/typography.scss" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1369213409731" ignored="false" />
+    <file path="/old.scss" changelist="5f055a17-a366-4945-99a8-e45fcf0ff7f6" time="1369213126087" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="famufest" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="front-page.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/front-page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="26" selection-start="275" selection-end="275" vertical-scroll-proportion="-6.5384617">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="26" selection-start="1040" selection-end="1040" vertical-scroll-proportion="-15.230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="25" selection-start="2583" selection-end="2583" vertical-scroll-proportion="-9.346154">
+              <folding>
+                <marker date="1369205615311" expanded="true" signature="472:497" placeholder="..." />
+                <marker date="1369205615311" expanded="true" signature="472:573" placeholder="..." />
+                <marker date="1369205615311" expanded="true" signature="1163:1254" placeholder="..." />
+                <marker date="1369205615311" expanded="true" signature="2582:3632" placeholder="..." />
+                <marker date="1369205615311" expanded="true" signature="3381:3632" placeholder="..." />
+                <marker date="1369205615311" expanded="true" signature="3592:3632" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="58" selection-start="1079" selection-end="1079" vertical-scroll-proportion="-11.769231">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="archive-famufest_movie.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/archive-famufest_movie.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="12" selection-start="697" selection-end="712" vertical-scroll-proportion="-17.653847">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="147" column="27" selection-start="4688" selection-end="4688" vertical-scroll-proportion="-11.807693">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="famufest_movie-meta.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/famufest_movie-meta.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="107" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="z-index.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/scss/z-index.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="20" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="overlay.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/scss/overlay.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/scss/content.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="1" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/scss/layout.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="160" column="21" selection-start="2194" selection-end="2194" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colors.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/scss/colors.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="old.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/scss/old.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="357" column="23" selection-start="6292" selection-end="6292" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="typography.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/scss/typography.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="23" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="icons.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/scss/icons.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="18" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="behavior.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/js/behavior.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1624" column="36" selection-start="55962" selection-end="55962" vertical-scroll-proportion="-2.133735">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax-news.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/ajax-news.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="35" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="famufest.error.log" pinned="true" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/famufest.error.log">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1154" column="100" selection-start="215504" selection-end="215504" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="SYNC_SETTING" value="DONT" />
+    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/logs/famufest.error.log" />
+        <option value="$PROJECT_DIR$/wp-content/themes/na-hladine/ajax-news.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/na-hladine/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/na-hladine/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/na-hladine/scss/icons.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/na-hladine/style.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/na-hladine/scss/z-index.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/na-hladine/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/na-hladine/js/behavior.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/na-hladine/scss/colors.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/na-hladine/scss/content.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/na-hladine/scss/bootstrap.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/na-hladine/scss/old.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/na-hladine/scss/typography.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/na-hladine/scss/layout.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famufest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famufest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famufest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famufest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famufest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famufest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famufest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famufest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famufest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="na-hladine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style.scss" />
+              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famufest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famufest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="na-hladine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famufest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famufest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="na-hladine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famufest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famufest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="na-hladine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famufest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famufest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/bin/git.exe" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="last.edited.regexp" value="" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="PublishConfig" promptOnLocalOverwrite="false">
+    <servers>
+      <server id="6389965b-2fc0-4658-9baf-c7c83bf90d82">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/famufest" local="$PROJECT_DIR$" web="/famufest" />
+          </mappings>
+          <excludedPaths>
+            <ExcludedPath>
+              <option name="path" value="/famufest/wp-config.php" />
+            </ExcludedPath>
+          </excludedPaths>
+        </serverdata>
+      </server>
+      <server id="c4222c3c-e5b0-4c31-86b5-e8ab8ef7b3c0">
+        <serverdata />
+      </server>
+      <server id="ec59c820-0caa-491e-bfc6-9da0deb2a2e8">
+        <serverdata />
+      </server>
+    </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\php\Pracovni\famufest\wp-content\themes\na-hladine\img" />
+      <recent name="C:\Projects\php\Pracovni\famufest\wp-content\plugins" />
+      <recent name="C:\Projects\php\Pracovni\famufest\wp-content\themes\na-hladine\events" />
+      <recent name="C:\Projects\php\Pracovni\famufest\wp-content\themes\na-hladine\lib\facebook" />
+      <recent name="C:\Projects\php\Pracovni\famufest\wp-content\themes\na-hladine" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\php\Pracovni\famufest\wp-content\themes\na-hladine\js" />
+      <recent name="C:\Projects\php\Pracovni\famufest\wp-content\themes\na-hladine" />
+      <recent name="C:\Projects\php\Pracovni\famufest\wp-content\themes\na-hladine\css" />
+      <recent name="C:\Projects\php\Pracovni\famufest\wp-content\themes\na-hladine\scss" />
+      <recent name="C:\Projects\php\Pracovni\famufest\wp-content\themes\na-hladine\img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f055a17-a366-4945-99a8-e45fcf0ff7f6" name="Default" comment="" />
+      <created>1365017240106</created>
+      <updated>1365017240106</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.66482913" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6728869" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29402348" sideWeight="0.6728869" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32711306" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32711306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33479694" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32821077" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="famufest" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="famufest" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="26" selection-start="1040" selection-end="1040" vertical-scroll-proportion="-15.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/archive-famufest_movie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="12" selection-start="697" selection-end="712" vertical-scroll-proportion="-17.653847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="27" selection-start="4688" selection-end="4688" vertical-scroll-proportion="-11.807693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/scss/icons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="18" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="25" selection-start="2583" selection-end="2583" vertical-scroll-proportion="-9.346154">
+          <folding>
+            <marker date="1369205615311" expanded="true" signature="472:497" placeholder="..." />
+            <marker date="1369205615311" expanded="true" signature="472:573" placeholder="..." />
+            <marker date="1369205615311" expanded="true" signature="1163:1254" placeholder="..." />
+            <marker date="1369205615311" expanded="true" signature="2582:3632" placeholder="..." />
+            <marker date="1369205615311" expanded="true" signature="3381:3632" placeholder="..." />
+            <marker date="1369205615311" expanded="true" signature="3592:3632" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="58" selection-start="1079" selection-end="1079" vertical-scroll-proportion="-11.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/scss/content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="1" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/scss/bootstrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="240" column="29" selection-start="3481" selection-end="3481" vertical-scroll-proportion="0.72978306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/scss/colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/scss/overlay.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/scss/z-index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="20" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/scss/old.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="357" column="23" selection-start="6292" selection-end="6292" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/scss/typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="23" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/scss/layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="21" selection-start="2194" selection-end="2194" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/na-hladine/js/behavior.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1624" column="36" selection-start="55962" selection-end="55962" vertical-scroll-proportion="-2.133735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

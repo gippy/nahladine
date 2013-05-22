@@ -1,0 +1,187 @@
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	color: white;
+}
+
+#page{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	min-width: 960px;
+	min-height: 540px;
+}
+
+#top{
+	position: relative;
+	z-index: 1;
+	padding-bottom:26.3%;
+}
+
+header{
+	position:absolute;
+	z-index: 3;
+	top: $pageGutter;
+	left: $pageGutter;
+}
+
+.top-bg{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	z-index: 2;
+
+	overflow:visible;
+	height: 100%;
+	img.background{
+		width: 100%;
+		position:absolute;
+	}
+	img.logo{
+		position:absolute;
+		bottom: 0px;
+		left: 48.12962962962962962962962962963%;
+		width: 3.962962962962962962962962962963%;
+	}
+}
+
+#news{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+	.slides{
+		width: 100%;
+		height: 113.63636363636363636363636363636%;
+		overflow: hidden;
+	}
+}
+
+#bottom{
+	position: relative;
+	z-index: 2;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.bottom-bg{
+	position:absolute;
+	left:0px;
+	top: 0px;
+	z-index: 1;
+	width: 100%;
+	overflow:visible;
+	padding-bottom:48.9453125%;
+	img.background{
+		width: 100%;
+		position:absolute;
+		left: 0px;
+		top: 0px;
+		margin-top: -7.444444444444444444444444444444%;
+
+	}
+	img.logo{
+		position: absolute;
+		top: 0px;
+		left: 48%;
+		width: 5.314814814814814814814814814815%;
+	}
+}
+
+#main{
+	position:absolute;
+	left:0px;
+	top: 0px;
+	width: 100%;
+	height: auto;
+	overflow:visible;
+	z-index: 0;
+	img.background{
+		width: 100%;
+		position:absolute;
+		left: 0px;
+		top: 0px;
+		z-index: -1;
+		margin-top: -7.444444444444444444444444444444%;
+
+	}
+}
+
+.main-navigation {
+	position: relative;
+	margin-top: -5%;
+
+	a{
+		text-decoration:none;
+		color: lighten($mainColor,80%);
+		@include transition(color, 0.5s);
+
+		&:hover {
+			color: $mainColor;
+		}
+	}
+
+	.menu-toggle, .assistive-text{
+		display:none;
+	}
+
+	ul{
+		list-style-type: none;
+		position: relative;
+		padding-left: $pageGutter;
+		padding-right: $pageGutter;
+		border-right: 2px solid black;
+		float:left;
+		background: transparent;
+		margin-left: 0;
+
+		li {
+			&.current-menu-item, &.current-menu-ancestor, &.active {
+				& > ul {
+					display: block;
+				}
+				& > a {
+					color: $mainColor;
+				}
+			}
+		}
+
+		ul{
+			left: 100%;
+			margin-left: 2px;
+			position: absolute;
+			float: none;
+			display: none;
+			top: $pageGutter;
+			padding-left: $pageGutter/2;
+			padding-right: $pageGutter/2;
+			border-right: 2px solid lighten(#000000, 40%);
+			ul{
+				border-right: 2px solid lighten(#000000, 60%);
+			}
+		}
+	}
+}
+
+.facebook{
+	display: none;
+	position: absolute;
+	padding: 5px;
+	overflow: auto;
+	width: 500px;
+}
+
+.fb-data{
+	display:none;
+}

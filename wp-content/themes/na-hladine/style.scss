@@ -1,0 +1,35 @@
+/*!
+Theme Name: Famufest 2013 - Na Hladine
+Theme URI: http://gipsweb.cz/projects/famufest
+Author: Jaroslav Hejlek
+Author URI: http://gipsweb.cz/
+Description: Theme for Famufest Film Festival for year 2013 with visual style "Na Hladine"
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwelve
+*/
+@import url("https://fnt.webink.com/wfs/webink.css/?project=CF067CE0-85AC-467D-9FE0-0EB3DFDBB210&fonts=CAC4D133-08E9-2123-5FFE-D354F1BB6F08:f=Executive-MediumIta,CFA46947-638C-0F15-A271-A897771BB7AA:f=Executive-Bold,06DF7380-FF3E-3BE8-59D0-E24986CA63CD:f=Executive-Medium,BF6E34AD-813B-1B6B-449A-38F4A417DE49:f=Executive-Regular,AFACCE17-5C0F-7C3C-CF59-DFC1523A0631:f=Executive-RegularIta,61C315B0-9382-DB96-AC5F-7057ACCFA58F:f=Executive-BoldIta");
+@import 'scss/bootstrap';
+
+@mixin transition($type, $time) {
+	-webkit-transition:$type $time;
+	   -moz-transition:$type $time;
+	     -o-transition:$type $time;
+	        transition:$type $time;
+}
+@mixin opacity($opacity){
+	opacity: $opacity;
+	filter: alpha(opacity=$opacity*100); /* For IE8 and earlier */
+}
+
+$pageGutter: 40px;
+$mainColor: #020202;
+
+@import 'scss/typography';
+@import 'scss/layout';
+@import 'scss/overlay';
+@import 'scss/content';
+@import 'scss/typography';
+@import 'scss/icons';
+@import 'scss/colors';
